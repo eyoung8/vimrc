@@ -1,1 +1,3 @@
 .vim/plugged/*
+#exception:
+!.vim/plugged/.gitkeep
