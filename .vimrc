@@ -53,6 +53,39 @@ set t_Co=256 " has system use full color range (useful on remotes)
 colo elflord
 set colorcolumn=100
 
+" Show tab and trailing whitespace characters
+set list
+set listchars=tab:\|\ ,trail:-
+highlight SpecialKey ctermfg=8
+
+" Incremental Search and Highlighting Results
+set incsearch
+set hlsearch
+
+" Smart case sensitivity
+set ignorecase
+set smartcase
+
+" These already done by Plug:
+" filetype plugin indent on 
+" syntax on
+set autoindent
+set backspace=indent,eol,start
+set cindent
+
+" Backup directory for swp files
+set noswapfile
+set directory=""
+
+" Runtime path search for Ex
+set ru
+
+" Ignore whitespace on diffs
+set diffopt+=iwhite
+
+" Paste as expected
+set pastetoggle=<C-5>
+
 "Fuzzy file search
 "set path+=** " Turn this on for subdirectory search
 set wildmenu " Show menu of possible autocompletes when >1 exists
