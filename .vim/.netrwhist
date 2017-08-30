@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/private/etc'
+let g:netrw_dirhist_2='/private'
+let g:netrw_dirhist_3='/'
+let g:netrw_dirhist_4='/Users/admin/Projects'
+let g:netrw_dirhist_5='/Users/admin/Projects/Reddit_ripper'
